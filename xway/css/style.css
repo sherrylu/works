@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*===================通用样式====================*/
+*{margin:0; padding:0;}
+/*所有标签固有样式间距和填充清零*/
+.claer{ clear:both;}
+/*用于清理浮动的类标签*/
+ul{list-style:none;}
+/*用于清除表单的样式*/
+img{border:none;}
+/*用于清除图片链接后的边框*/
+body{background:#ebebeb; color:#333; font-family:"Times New Roman", Times, serif;font-family: "宋体";font-size:14px; line-height:1em; }
+/*定义字体格式*/
+a {outline:none; text-decoration:none;color:#666;cursor:pointer;}
+/*用于清除链接虚线范围，可做可不做*/
+table{border-collapse:collapse;}
+/*用于单元格的收缩，清除单元格固有样式*/
+
+/*===========导航部分================*/
+#nav{height:31px;background:url(../images/top_02.jpg) repeat-x top left;}
+#nav .nav_inn{margin:0 auto;width:1190px;}
+#nav .nav_inn ul.nav_btn{float:left;}
+#nav .nav_inn ul.nav_btn li{float:left;padding-right:46px;}
+#nav .nav_inn ul.nav_btn li a.nav_a{display:block;float:left;padding-top:1px;height:29px;line-height:28px;color:#ccc;}
+#nav .nav_inn ul.nav_btn li a.dangqian{display:block;width:76px;height:29px;border-top:1px #fd330d solid;line-height:28px;font-weight:bold;color:#fff;}
+/*登录按钮*/
+#nav .nav_inn .dlsz_btn{float:right;}
+#nav .nav_inn .dlsz_btn li{float:left;}
+#nav .nav_inn .dlsz_btn a.dl_btn{display:block;	padding-top:1px;width:34px;height:29px;line-height:28px;color:#ccc;}
+#nav .nav_inn .dlsz_btn a.shezhi_btn{display:block;	padding-right:0px;	width:21px;	height:31px;background:url(../images/shezhi_btn_09.jpg) no-repeat 0px 2px;}
+
+/*=======================底部导航====================*/
+#subnav{ clear:both;height:77px;background:#e5e5e5;	border-top:1px #dadada solid;}
+#subnav .subnav_inn{margin:0 auto;width:1190px;}
+#subnav .subnav_inn p.p_l{float:left;padding-top:25px; font-size:12px;color:#666;}
+#subnav .subnav_inn a{color:#666;}
+#subnav .subnav_inn p.p_r{float:right;padding-top:16px;font-size:12px;color:#8d8d8d;text-align:right;}

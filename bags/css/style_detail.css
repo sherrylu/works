@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"微软雅黑" ;
+	color:#413028;
+}
+.clear{
+	clear:both;
+}
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+img{
+	border:none;
+}
+a{
+	text-decoration:none;
+	color:#413028;
+}
+body{
+	background:url(../images/bg_02.jpg);
+}
+/*------------head---------begin-----------------------------------------------*/
+#header,#footer{
+	height:30px;
+	background:#413028;
+}
+.headerinner,.footerinner{
+	width:980px;
+	height:30px;
+	margin:0 auto;
+	color:#bbd164;
+	font-size:14px;
+	font-weight:bold;
+	
+}
+.headerinner{
+	position:relative;
+}
+.headerinner a,.footerinner a{
+	color:#bbd164;
+}
+.login,.cart,.zhuce{
+	float:right;
+	padding:0 10px 0 25px;
+	line-height:30px;
+}
+.login{
+	display:block;
+	padding-right:10px;
+	background:url(../images/head_02.jpg) right no-repeat;
+}
+.cart{
+	background:url(../images/head_04.jpg) left no-repeat;
+}
+.logo{
+	position:absolute;
+	top:0px;
+	left:50px;
+	width:161px;
+	height:161px;
+}
+.headerinner{
+	position:relative;
+}
+.login_box{
+	position:absolute;
+	padding:20px 20px;
+	background:url(../images/bg_02.jpg);
+	width:153px;
+	height:95px;
+	border:3px #413028 dotted;
+	left: 749px;
+	top: 25px;
+	color:#413028;
+}
+.enter{
+	margin-left:100px;
+}
+.fillin{
+	width:130px;
+	height:20px;
+}
+/*-----------------main-----------begin----------------nav-----------------------search*/
+.maininner{
+	width:980px;
+	margin:0 auto;
+}
+.nav{
+	padding-left:211px;
+}
+.nav li{
+	float:left;
+	padding:0 20px;
+	height:80px;
+	background:url(../images/dot_14.jpg) top right no-repeat;
+	font-size:20px;
+}
+.nav .dot1{
+	background:url(../images/dot_14.jpg) bottom right no-repeat;
+}
+.nav a{
+	border:1px #bbd164 dotted;
+	display:block;
+	padding-top:10px;
+	margin-top:10px;
+	width:64px;
+	height:54px;
+	line-height:23px;
+	text-align:center;
+}
+.nav .index{
+	color:#7d8e38;
+	background:url(../images/hoverbg_20.jpg);
+}
+h1{
+	font-size:20px; 
+	font-weight:normal;
+	line-height:23px;
+	display:inline;
+}
+.nav a:hover{
+	color:#7d8e38;
+	background:url(../images/hoverbg_20.jpg);
+}
+.search{
+	padding:10px 20px 10px 740px;
+}
+.searchtext{
+	padding-left:10px;
+	border:none;
+	overflow:hidden;
+	width:160px;
+	height:28px;
+	background:url(../images/search_25.jpg) no-repeat;
+	line-height:28px;
+}
+.searchimg{
+	vertical-align:bottom;
+	zoom:1
+}
+/*------------mainnav-------------------------*/
+.navdetail{
+	float:left;
+	padding-top:40px;
+	margin:-right:20px;
+}
+.mainmain{
+	float:right;
+}
+.navdetail dt{
+	padding-top:50px;
+	margin:40px 0 10px 0;
+	width:125px;
+	height:36px;
+	text-align:right;
+	font-size:24px;
+}
+.navdetail a{
+	display:block;
+	background:url(../images/listbg_03.jpg) bottom no-repeat;
+	margin:3px 13px;
+	font-size:18px;
+}
+.new a,.play a,.dec a,.bag a{
+	background:none;
+	font-size:24px;
+}
+.new{
+	background:url(../images/newarrival_03.jpg) no-repeat;
+}
+.play{
+	background:url(../images/play_03.jpg) no-repeat;
+}
+.dec{
+	background:url(../images/shi_03.jpg) no-repeat;
+}
+.bag{
+	background:url(../images/bag_03.jpg) no-repeat;
+}
+/*bottom*/
+.bottom li{
+	float:left;
+	padding:100px 40px 20px 40px;
+	background:url(../images/dot_14.jpg) bottom right no-repeat;
+	font-size:16px;
+	text-align:center;}
+.footerinner p{
+	display:inline;
+	line-height:30px;
+	font-weight:normal;
+}
+.footerinner a{
+	float:right;
+	padding-right:15px;
+	line-height:30px;
+	background:url(../images/top_22.jpg) center right no-repeat;
+}
+/*mainmain*/
+.bread a{
+	text-decoration:underline;
+}
+
+#post{
+	float:left;
+	width:700px;
+	height:30px;
+	overflow:hidden;
+	color:#8FA538;
+}
+#post li{
+	margin:0px 10px;
+	float:left;
+	width:400px;
+	height:30px;
+	line-height:30px;
+	text-decoration:underline;
+}
+.gonggao span{
+	float:left;
+	line-height:30px;
+}
+.gonggao{
+	padding:10px;
+}
+.mainmain{
+	padding:20px 0;
+	width:820px;
+}
+.pic{
+	float:left;
+	padding:20px 20px 20px 0px;
+	width:450px;
+}
+.know{
+	float:right;
+	width:340px;
+	padding-top:40px;
+}
+.know dt{
+	display:inline;
+}
+.know dd{
+	padding-left:40px;
+}
+.smlpic img{
+	width:100px;
+	height:100px;
+	cursor:pointer;
+}
+.smlpic li{
+	float:left;
+	margin-right:10px;
+	padding-top:20px;
+}

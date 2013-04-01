@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+ul,ol{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+.clear{clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix{display:inline-table;display:block;}
+*html .clearfix{ height:1%;}/* Hides from IE-mac \*/
+*+html .clearfix{min-height:1%;}/* End hide from IE-mac */
+body,.content_left a{font-size:12px;font-family:Arial, Helvetica, sans-serif,'宋体';color:#000;}
+#top p a,#nav ul li a,.content_left h2,.content_right ul li dl dd a,#footer ul li a,#footer{color:#FFF;}
+#content a:hover{color:#F60}
+#nav a,#footer a,#content h2{font-size:14px;}
+.logo,#nav ul,#nav ul li,.fl,#footer ul li{float:left;display:inline;}
+#top p,.fr,.serch,#top p{float:right;display:inline;}
+#nav,#footer ul{background:url(../images/nav_bg.jpg) repeat-x;line-height:36px;}
+#nav ul li,#footer ul li{background:url(../images/index_13.jpg) no-repeat right top;padding:0 20px;}
+#container{margin:0 auto;width:960px;padding:0;overflow:hidden;}
+#top{background:url(../images/top_bg.jpg) no-repeat;height:108px;}
+#top p{padding:5px 10px;}
+#top p a{margin-left:20px;}
+#nav ul{width:706px;}
+.serch{width:200px;margin-top:5px;}
+.search_btn{margin:0 0 0 -32px;vertical-align:top;}
+.search_bg{background:url(../images/serch_bg_01.jpg) no-repeat;width:144px;line-height:22px;text-indent:20px;}
+#content{background:#CCC;border:1px solid #CCC;}
+.content_right,.content_left{background:#FFF;}
+.content_left{width:240px;}
+.content_left ul li{margin-bottom:5px;padding-left:10px;background:url(../images/subnav_bg_12.jpg) repeat-x;line-height:26px;height:26px;}
+.content_left ul .list1 a{background:url(../images/subnav_37.jpg) no-repeat right top;}
+.content_left ul .list2 a{background:url(../images/subnav_37.jpg) no-repeat right top;}
+.content_left ul .list3 a{background:url(../images/subnav_40.jpg) no-repeat right top;}
+.content_left ul .list4 a{background:url(../images/subnav_42.jpg) no-repeat right top;}
+.content_left ul .list5 a{background:url(../images/subnav_44.jpg) no-repeat right top;}
+.content_left ul .list6 a{background:url(../images/subnav_50.jpg) no-repeat right top;}
+.content_left ul li a{height:26px;width:220px;display:block;}
+.content_left .bg1{background:url(../images/index_21.jpg) no-repeat;}
+.content_left .bg2{background:url(../images/index_41.jpg) no-repeat;}
+.content_right .bg3{background:url(../images/indt_bg_17.jpg) no-repeat;}
+#footer{margin-top:20px;background:url(../images/footer_bg.jpg) no-repeat;line-height:22px;text-align:center;}
+#footer ul{padding-left:220px;}

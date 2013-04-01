@@ -1,0 +1,859 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>寻味网 - 网上点餐 免费订餐 送餐 折扣优惠 美食分享</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/search.css" />
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/search.js"></script>
+</head>
+
+<body>
+<!--主导航-->
+<div id="nav">
+	<div class="nav_inn">
+   	  	<ul class="nav_btn">
+   	      <li><a class="dangqian" href="index.html">今天吃什么</a></li>
+   	      <li><a class="nav_a" href="details.html">外卖送餐</a></li>
+   	      <li><a class="nav_a" href="#">味之道</a></li>
+   	      <li><a class="nav_a" href="#">排行榜</a></li>
+   	      <li><a class="nav_a" href="#">积分团购</a></li>
+   	      <li><a class="nav_a" href="#">活动专区</a></li>
+        </ul>
+        <ul class="dlsz_btn">
+       	  <li><a class="dl_btn" href="#">登录</a></li>
+      	  <li><a class="shezhi_btn" href="#"></a></li>
+        </ul>
+      </ul>
+    </div>
+</div>
+<!--头部区域-->
+<div id="header">
+  <div class="header_inn">
+  		<!--logo和地方选择-->
+    	<div class="logo"></div>
+        <div class="difang">
+        	<h3>北京</h3>
+            <p>[<a href="#">更多城市</a>]</p>
+        </div>
+        <!--小广告banner-->
+        <div class="banner_top">banner广告，还没时间完成。</div>
+        <div class="claer"></div>
+        <!--中间搜索条-->
+     	<div class="search">
+       		<ul>
+            	<li><a class="dqxz_xxk" href="index.html">寻餐厅</a>
+                	<p>搜索：餐厅名、路名、商圈名等</p>
+                </li>
+                <li><a href="#">寻&nbsp;菜</a>
+                	<p>搜索：菜系、菜名等</p>
+                </li>
+                <li><h1><a href="#">寻 味</a></h1>
+                	<p>搜索：酸甜、麻辣、咖喱</p>
+                </li>
+                <li><a href="#">寻人群</a>
+                	<p>搜索：老人、孕妇、母乳期、幼儿、运动员</p>
+                </li>
+                <li><a href="#">寻调理</a>
+                	<p>搜索：养生、减肥、清热解毒、滋阴、补阳</p>
+                </li>
+                <li><a href="#">订婚宴</a>
+                	<p>搜索：60围席、传统的、浪漫的、特色的</p>
+                </li>
+                <li><a href="#">订年会</a>
+                	<p>搜索：120围席、有舞台灯光音响的</p>
+                </li>
+          	</ul>
+            <div class="claer"></div>
+            <div class="sea_bg">
+            	<form>
+                	<input class="sea_shuru" type="text" value="" /><input class="sea_btn" type="image" src="images/search_btn_20.jpg" />
+                </form>
+                <div class="denglu">
+                	<a class="btn1" href="#">
+                    	<p class="text_small">您好&nbsp;<span>登录</span></p>
+                        <p>我的账号</p>
+                    </a>
+                    <a class="btn2" href="#">
+                    	<span>22</span>
+                    	<img src="images/gwc_btn.gif" />
+                        <p>购物车</p>
+                    </a>
+                    <a class="btn3" href="#">
+                    	<p>积分</p>
+                    </a>
+                </div><!--denglu-->
+            </div><!--sea_bg-->
+       	</div><!--search-->
+        <!--地址选卡-->
+        <div id="dizhi">
+            <dl>
+                <dt>华东地区：</dt>
+                <dd>
+                    <a>上海</a>
+                    <a>南京</a>
+                    <a>杭州</a>
+                    <a>苏州</a>
+                    <a>福州</a>
+                    <a>青岛</a>
+                    <a>济南</a>
+                    <a>厦门</a>
+                    <a>无锡</a>
+                    <a>宁波</a>
+                    <a>常州</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>华北东北：</dt>
+                <dd>
+                    <a>北京</a>
+                    <a>天津</a>
+                    <a>沈阳</a>
+                    <a>哈尔滨</a>
+                    <a>大连</a>
+                    <a>长春</a>
+                    <a>石家庄</a>
+                    <a>太原</a>
+                    <a>呼和浩特</a>
+                    <a>廊坊</a>
+                    <a>保定</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>华南地区：</dt>
+                <dd>
+                    <a>深圳</a>
+                    <a>广州</a>
+                    <a>佛山</a>
+                    <a>珠海</a>
+                    <a>东莞</a>
+                    <a>南宁</a>
+                    <a>三亚</a>
+                    <a>海口</a>
+                    <a>桂林</a>
+                    <a>汕头</a>
+                    <a>中山</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt>中部西部：</dt>
+                <dd>
+                    <a>成都</a>
+                    <a>武汉</a>
+                    <a>重庆</a>
+                    <a>西安</a>
+                    <a>长沙</a>
+                    <a>郑州</a>
+                    <a>昆明</a>
+                    <a>贵阳</a>
+                    <a>南昌</a>
+                    <a>兰州</a>
+                    <a>乌鲁木齐</a>
+                </dd>
+            </dl>
+            <div class="claer"></div>
+            <a class="more">更多>></a>
+        </div><!--dizhi-->
+    </div>
+</div>
+<!--中间主要内容区-->
+<div id="intro">
+  <div class="bread"><a href="index.html">首页</a> > <a href="index.html">今天吃什么</a> > <a href="#">餐厅搜索列表</a></div>
+<div class="intro_left">
+        <div class="sch_list">
+            <h2>目的</h2>
+            <div class="sch_list_con" id="con1_1">
+                <dl class="sch_list_con_back">
+                    <dt><a class="back"><<返回目的</a></dt>
+                </dl>
+                <dl class="sch_list_con_list">
+                    <dt><p>情侣约会</p><a class="back"></a></dt>
+                    <dd><a>有表演看的约会餐厅</a></dd>
+                    <dd><a>最幽静，浪漫约会餐厅</a></dd>
+                    <dd><a>红男绿女钟爱夜景餐厅</a></dd>
+                </dl>
+                <p><a>更多>></a></p>
+            </div><!--sch_list_con-->
+            <div class="sch_list_con2"  id="con1_2">
+            	<dl class="sch_list_con_list">
+                	<dd><a>情侣约会</a></dd>
+                    <dd><a>特色情境</a></dd>
+                    <dd><a>商务宴请</a></dd>
+                    <dd><a>朋友同事聚餐</a></dd>
+                    <dd><a>家庭聚会</a></dd>
+                    <dd><a>特色口味</a></dd>
+                    <dd><a>随便吃吃</a></dd>
+                </dl>
+            </div>
+            <h2>地区</h2>
+            <div class="sch_list_con" id="con2_1">
+                <dl class="sch_list_con_back">
+                    <dt><a class="back"><<返回地区</a></dt>
+                </dl>
+                <dl class="sch_list_con_list">
+                    <dt><p>西城区</p><a class="back"></a></dt>
+                    <dd>其他</dd>
+                </dl>
+            </div>
+            <div class="sch_list_con2" id="con2_2">
+            	<dl class="sch_list_con_list">
+                	<dd><a>宣武区</a></dd>
+                    <dd><a>西城区</a></dd>
+                    <dd><a>石景山区</a></dd>
+                    <dd><a>近郊</a></dd>
+                    <dd><a>海淀区</a></dd>
+                </dl>
+                <p><a>更多>></a></p>
+            </div>
+            <h2>菜系</h2>
+            <div class="sch_list_con" id="con3_1">
+                <dl class="sch_list_con_back">
+                    <dt><a class="back"><<返回菜系</a></dt>
+                </dl>
+                <dl class="sch_list_con_list">
+                    <dt><p>川湘菜</p><a class="back"></a></dt>
+                    <dd>湘菜</dd>
+                </dl>
+            </div>
+            <div class="sch_list_con2" id="con3_2">
+            	<dl class="sch_list_con_list">
+                	<dd><a>京菜</a></dd>
+                    <dd><a>川湘菜</a></dd>
+                    <dd><a>火锅/干锅</a></dd>
+                    <dd><a>烧烤</a></dd>
+                    <dd><a>自助餐</a></dd>
+                </dl>
+                <p><a>更多>></a></p>
+            </div>
+            <h2>人均消费</h2>
+            <div class="sch_list_con" id="con4_1">
+                <dl class="sch_list_con_back">
+                    <dt><a class="back"><<返回人均消费</a></dt>
+                </dl>
+                <dl class="sch_list_con_list">
+                    <dt><p>￥50-100</p><a class="back"></a></dt>
+                </dl>
+            </div>
+            <div class="sch_list_con2" id="con4_2">
+            	<dl class="sch_list_con_list">
+                	<dd><a>￥50以下</a></dd>
+                    <dd><a>￥50-100</a></dd>
+                    <dd><a>￥101-200</a></dd>
+                    <dd><a>￥201-400</a></dd>
+                    <dd><a>￥400以上</a></dd>
+                </dl>
+            </div>
+             <h2>优惠信息</h2>
+            <div class="sch_list_con"  id="con5_1">
+                <dl class="sch_list_con_back">
+                    <dt><a class="back"><<返回优惠信息</a></dt>
+                </dl>
+                <dl class="sch_list_con_list">
+                    <dt><p>折扣优惠</p><a class="back"></a></dt>
+                </dl>
+            </div>
+            <div class="sch_list_con2"  id="con5_2">
+            	<dl class="sch_list_con_list">
+                	<dd><a>折扣优惠</a></dd>
+                    <dd><a>享寻味积分</a></dd>
+                </dl>
+            </div>
+        </div><!--sch_list-->
+        <div class="sch_list_foot">
+            <a class="wytj_btn" >我要推荐</a>
+            <dl>
+                <dt>推荐就送<span>10</span>寻币！</dt>
+                <dd>寻币使用规则</dd>
+            </dl>
+        </div>
+    </div><!--intro_left-->
+    <div class="intro_right">
+   	  <div class="sch_box">
+       	<div class="sch_box_header">
+            	<p>您已选择：</p>
+				<a id="con1_3">情侣约会</a>
+                <a id="con2_3">西城区</a>
+                <a id="con3_3">川湘菜</a>
+                <a id="con4_3">￥50-100</a>
+                <a id="con5_3">折扣优惠</a>
+                <a id="con6_3">团购优惠</a>
+            </div><!--sch_box_header-->
+			<div class="sch_box_h4">
+            	<dl>
+               	  <dt>适合<b>情侣约会</b>的餐厅?</dt>
+               	  <dd>入选理由：桌间距比较大适合私聊 | 环境温馨浪漫 | 背景乐舒缓轻柔 | 服务有礼有节</dd>
+                </dl>
+            </div><!--sch_box_h4-->
+            <div class="sch_box_con">
+            <dl>
+           	  	<dt>特色服务：</dt>
+              	<dd>
+                	<form>
+                   	  <input name="serve" type="checkbox" /><label>提供预定服务</label>
+                      <input name="serve" type="checkbox" /><label>可以刷卡</label>
+                      <input name="serve" type="checkbox" /><label>有停车位</label>
+                      <input name="serve" type="checkbox" /><label>全场禁烟</label>
+                      <input name="serve" type="checkbox" /><label>区分烟区</label>
+                      <input name="serve" type="checkbox" /><label>无线上网</label>
+                      <input name="serve" type="checkbox" /><label>有宝宝椅</label>
+                      <input name="serve" type="checkbox" /><label>露天位</label>
+                    </form>
+              	</dd>
+              </dl>
+              <dl>
+              	<dt>餐厅措施：</dt>
+              	<dd>
+                	<form>
+                   	  <input name="step" type="checkbox" /><label>有舞台</label>
+                      <input name="step" type="checkbox" /><label>卡拉OK</label>
+                      <input name="step" type="checkbox" /><label>有包房</label>
+                      <input name="step" type="checkbox" /><label>包房无低消</label>
+                      <input name="step" type="checkbox" /><label>包房有洗手间</label>
+                    </form>
+              	</dd>
+              </dl>
+              <dl>
+              	<dt>餐厅措施：</dt>
+              	<dd>
+                	<form>
+                   	  <input name="other" type="checkbox" /><label>有表演</label>
+                      <input name="other" type="checkbox" /><label>下午茶</label>
+                      <input name="other" type="checkbox" /><label>夜宵</label>
+                      <input name="other" type="checkbox" /><label>四合院</label>
+                    </form>
+              	</dd>
+              </dl>
+              <a>精简特色服务</a>
+            </div>
+            <a class="ensure" href="details.html">确定</a>
+        </div><!--sch_box-->
+        <div class="sch_con">
+       	  <form class="sch_con_top">
+           	<label>排序：</label>
+            <div class="btn_paixu">
+           		<a class="btn_tj"></a><a class="btn_xl"></a><a class="btn_zx"></a><a class="btn_jg"></a>
+            </div>
+            <div class="btn_paixu">
+            	<input class="checkbox_mfps"type="checkbox" /><label>免费配送</label>
+            </div>
+            <div class="btn_paixu">
+            	<label>配送时间</label>
+                <select name="timemenu">
+                  <option>不限</option>
+                  <option>现在</option>
+                  <option>01:00</option>
+                  <option>02:00</option>
+                  <option>03:00</option>
+                  <option>04:00</option>
+                  <option>05:00</option>
+                  <option>06:00</option>
+                  <option>07:00</option>
+                  <option>08:00</option>
+                  <option>09:00</option>
+                  <option>10:00</option>
+                  <option>11:00</option>
+                  <option>12:00</option>
+                  <option>13:00</option>
+                  <option>14:00</option>
+                  <option>15:00</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                  <option>18:00</option>
+                  <option>19:00</option>
+                  <option>20:00</option>
+                  <option>21:00</option>
+                  <option>22:00</option>
+                  <option>23:00</option>
+                  <option>明天</option>
+                </select>
+            <label>-</label>
+            	<select name="timemenu">
+                  <option>不限</option>
+                  <option>现在</option>
+                  <option>01:00</option>
+                  <option>02:00</option>
+                  <option>03:00</option>
+                  <option>04:00</option>
+                  <option>05:00</option>
+                  <option>06:00</option>
+                  <option>07:00</option>
+                  <option>08:00</option>
+                  <option>09:00</option>
+                  <option>10:00</option>
+                  <option>11:00</option>
+                  <option>12:00</option>
+                  <option>13:00</option>
+                  <option>14:00</option>
+                  <option>15:00</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                  <option>18:00</option>
+                  <option>19:00</option>
+                  <option>20:00</option>
+                  <option>21:00</option>
+                  <option>22:00</option>
+                  <option>23:00</option>
+                  <option>明天</option>
+                </select>
+            </div>
+            <div class="btn_paixu">
+                <input class="sch_text" type="text" /><a class="sch_btn">搜索</a>
+            </div>
+            </form>
+           	<div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="sch_con_main">
+            	<a href="details.html">
+            	<div class="con_left">
+                	<div class="img">
+                    	<img src="images/sch_con_img.jpg" alt="黑松白鹿 新源里店" />
+                    </div>
+                    <span>360°实景图</span>
+                </div>
+                <div class="con_left">
+                	<h4>黑松白鹿 新源里店</h4>
+                    <dl>
+                    	<dt>菜系：</dt>
+                        <dd><em>日本料理 日本料理自助餐</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt>地址：</dt>
+                        <dd>北京<em>朝阳区-亮马桥/三元桥</em> 新源西里东街2号近亮马桥、新源里、渔阳大厦</dd>
+                    </dl>
+                    <dl>
+                    	<dt>人均：</dt>
+                        <dd>￥<em>90-500</em></dd>
+                    </dl>
+                    <dl>
+                    	<dt><em>优惠：</em></dt>
+                        <dd><em>自助93折，零点85折</em></dd>
+                    </dl>
+                </div>
+                <div class="con_left">
+                	<img class="star" src="images/star.gif" />
+                    <p><em>93封点评/219笔近期交易</em></p>
+                    <p class="p_line">口味：<em>4.0</em> 环境：<em>3.8</em> 服务：<em>4.0</em></p>
+                </div>
+                </a>
+                <div class="con_btn">
+                	<a class="btn_cd">菜 单</a>
+                    <a class="btn_yd">预 订</a>
+                    <a class="btn_ws">外 送</a>
+                </div>
+            </div>
+            <div class="con_footer">
+            	<p class="p_l"><a>小林君 推荐</a></p>
+                <p class="p_r"><a>我也要推荐 | 980 热度 | 21 评论 | 105 顶 | 59 收藏</a></p>
+            </div>
+            <div class="page">
+            	<a class="prev">上一页</a>
+        		<a class="fitst"><<</a>
+            	<a class="a" id="dangqian">1</a>
+            	<a class="a">2</a>
+            	<a class="a">3</a>
+            	<a class="a">4</a>
+            	<a class="a">5</a>
+            	<a class="a">6</a>
+            	<a class="last">>></a>
+            	<a class="next">下一页</a>
+        	</div>
+        	<div class="claer"></div>
+        </div>
+        
+    </div><!--intro_right-->
+</div>
+<!--底部导航-->
+<div id="subnav">
+	<div class="subnav_inn">
+		<p class="p_l"><a href="#">关于我们</a>&nbsp;|&nbsp;<a href="#">联系我们</a>&nbsp;|&nbsp;<a href="#">诚聘英才</a>&nbsp;|&nbsp;<a href="#">友情链接</a>&nbsp;|&nbsp;<a href="#">网站地图</a>&nbsp;|&nbsp;<a href="#">商户登录</a>&nbsp;|&nbsp;<a href="#">网站联盟</a></p>
+        <p class="p_r">© Copyright 2012. Xway.Com. 版权所有<br />设计：火星时代102网媒 Kery  指导：火星时代 林喜军 老师</p>
+	</div>
+</div>
+</body>
+</html>

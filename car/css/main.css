@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{width:960px;height:259px;position:relative;left:0;top:0;}
+#marquee1 {width:960px;height:259px;overflow:hidden;}
+#marquee1 ul li{float:left;}
+#marquee1 ul li img{display:block;}
+#mar1Nav{position:absolute;right:20px;bottom:10px;}
+#mar1Nav li{float:left;margin:0 3px;width:16px;height:16px;background:#333;border:1px solid #FFF;cursor:pointer;line-height:16px;font-family:Arial;font-size:10px;color:#FFF;text-align:center;}
+#mar1Nav li.navOn {background:#FF6600;}
+#content h2{margin-bottom:5px;padding:10px 0 8px 24px;}
+.content_right{width:708px;}
+.content_right ul{margin-left:12px;padding-bottom:10px;border-top:1px dashed #000;}
+.content_right ul li{position:relative;left:0;top:0;margin:10px 12px 0 0;width:220px;height:140px;overflow:hidden;}
+.content_right dl{width:220px;padding:5px 0;position:absolute;left:0;bottom:0;background:#000;filter:alpha(opacity=60);opacity:0.6;color:#FFF;}
+.content_right dl dt{font-size:16px;}
+.content_right dl dd{display:none;}
+.content_right dl dd a{display:block;margin:5px 0;}
+.content_right ul li,.text img{float:left;display:inline;}
+.text p{width:560px;padding-top:5px;line-height:21px;text-indent:24px;float:right;}
+.text p a{color:#333;}
+.text img{width:125px;padding:0 0 10px 10px;height:121px;}

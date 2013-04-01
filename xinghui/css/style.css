@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0; padding:0;}
+.clear {clear:both;}
+ul {list-style:none;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix{display:inline-table;}
+:focus{outline:0;}
+body {font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#4a5456;}
+a {text-decoration:none;}
+img {border:none;}
+.fl,.nav li,.item li,.clients li,.footer-inner li {float:left; display:inline;}
+.fr { float:right; display:inline;}
+.header-inner,.banner-inner,.main-inner,.footer-inner {width:980px; margin:0 auto;}
+#header {height:70px; background:url(../images/header-bg_02.gif) repeat-x;}
+.logo {padding-top:5px;}
+.nav li {width:100px; margin-left:8px;}
+.nav li a {display:block; width:100px; margin-right:10px; font-size:14px; color:#e9ecec; line-height:70px; text-align:center;}
+.nav li a:hover,#header .index a{background:url(../images/s_11.png) no-repeat left 25px;}
+#header .index a{color:#0ac0d5;}
+#banner {background:url(../images/ba_bg_17.jpg) repeat-x;}
+.banner-inner {position:relative; width:980px; height:460px;overflow:hidden;}
+#marquee3 {width:980px; height:416px; overflow:hidden; }
+#marquee3 ul li {float:left; width:980px;}
+#marquee3 ul li img {display:block; height:417px; width:980px;}
+#mar3Nav {position:absolute; left:450px; bottom:20px; width:100px;} 
+#mar3Nav li {float:left; width:10px; height:8px; margin:0 3px;  background:url(../images/tg_flash_p.png) no-repeat right bottom; cursor:pointer; text-indent:9999px; font-size:0; text-align:center;}
+#mar3Nav li.navOn { background:url(../images/tg_flash_p.png) left bottom;}
+#main {height:574px; background:url(../images/main-bg_20.jpg) repeat-x;}
+.main-inner .news {line-height:32px;}
+.main-inner .news span {margin-right:20px; font-weight:bold; color:#37697b;}
+.about dl {width:268px; line-height:1.5em;}
+.about .link {padding-top:10px; padding-bottom:20px; padding:10px 0 20px;}
+.about .link a {display:block; padding-left:15px;background:url(../images/link_31.gif) no-repeat;  font-size:14px; color:#4a5456;line-height:24px;}
+.p_r60 {padding-right:60px;background:url(../images/xian_18.jpg) no-repeat right 40px;}
+.p_l28{padding-left:28px; }
+.item li {padding:0 0 20px 8px;}
+.clients {width:801px; height:60px; padding:10px 0 16px 179px; background:url(../images/hez_41.gif) no-repeat center center;}
+.clients li {padding:10px 20px 0 0;}
+#footer {height:38px; padding-top:30px; background:url(../images/footer_77.gif) repeat-x; color:#78b8b3;}	
+.footer-inner a {display:block; height:18px; padding:0 16px 0 20px; color:#8fb8c1;  }
+.sian {background:url(../images/858_46.gif) no-repeat;}
+.blog {background:url(../images/42_48.gif) no-repeat;}
+.face {background:url(../images/f_52.gif) no-repeat;}
+.twi {background:url(../images/9_50.gif) no-repeat;}
+.twi a {padding-right:0;}
