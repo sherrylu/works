@@ -64,7 +64,7 @@ $('.main_top_ment li').hover(function(){
 
 		
 $('#marquee').kxbdSuperMarquee({
-				distance:700,
+				distance:698,
 				time:10,
 				navId:'#marNav',
 				direction:'left'
