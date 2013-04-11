@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+	background-image:url(images/index-table-bg_22.jpg);
+	background-repeat:no-repeat;
+}
+.foot_bg{
+	background-image:url(images/index-main-bottom-bg_23.jpg);
+	line-height:38px;
+	background-position:0;
+}

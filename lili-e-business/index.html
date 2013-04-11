@@ -63,7 +63,7 @@
                 </ul>
             </li>
         </ul>
-    	<p class="fl"><a href="javascript:void(0);" onclick="addFavourite()">收藏利利</a><span>|</span>欢迎光临利利网，请<a href="#" class="login_link">登录</a><a href="#" class="blue"><strong>免费注册</strong></a></p>
+    	<p class="fl"><a href="javascript:void(0);" onclick="addFavourite()">收藏利利</a><span>|</span>欢迎光临利利网，请<a href="javascript:void(0);" class="login_link">登录</a><a href="#" class="blue"><strong>免费注册</strong></a></p>
         <div class="login">
         	<form>
                 <p><label>用户名:</label><br/><input type="text" class="login_in" /></p>
@@ -88,7 +88,7 @@
 <div id="nav">
 	<div class="w1200">
     	<ul class="clearfix">
-        	<li><a href="#"  class="index">首页</a></li>
+        	<li><a href="#" class="index">首页</a></li>
             <li><a href="#">图书</a></li>
             <li><a href="#">音像</a></li>
             <li><a href="#">孕</a></li>
@@ -158,26 +158,33 @@
                         <div id="marNav"></div>
                     </div><!--banner大图滚动结束-->
 					<div class="banner_smail pr">
-					<a href="javascript:void(0);" id="goL1" title="向右查看图片">&#8249;</a> 
+						<a href="javascript:void(0);" id="goL1" title="向右查看图片"></a> 
+                        <a href="javascript:void(0);" id="goR1" title="向左查看图片"></a>
 						<div id="marquee1">
-							<ul class="">
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-								<li><a href="#"><img src="images/fashion_40.jpg" width="140" height="114" /></a></li>
-							</ul>
+							<ul>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+                                <li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+                                <li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+                                <li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+                                <li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+								<li><a href="#"><img src="images/rh8.jpg" width="140" height="114" /></a></li>
+                            </ul>
 						</div>
-						<a href="javascript:void(0);" id="goR1" title="向左查看图片">&#8250;</a>
 					</div><!--小图滚动结束-->
                 </div><!--main广告区域结束-->
                 <div class="w300 fr">
-                	<div class="return"><a href="#"><img src="images/link.jpg" width="281" height="63" /></a></div>
+                	<div class="return">
+                    	<img src="images/link.jpg" width="281" height="63" usemap="#returnmap"/>
+                        <map name="returnmap" id="returnmap">
+                           <area shape="circle" coords="26,32,16" href="#" alt="货到付款" title="货到付款"/>
+                           <area shape="circle" coords="135,32,16" href ="#" alt="包邮规定" title="包邮规定"/>
+                           <area shape="circle" coords="220,32,16" href ="#" alt="上门退款" title="上门退款"/>
+                        </map>
+                    </div>
                     <div class="new">
                     	<h4 class="fl">利利公告</h4>
                         <div class="fr"><a href="#">更多>></a></div>
@@ -634,7 +641,7 @@
       	</div><!--童装结束-->
     </div>
 </div><!--main-->
-<div id="footer" class="pr">
+<div id="footer">
 	<div class="footer_inner tc">
     	<ul class="footer_map clearfix">
         	<li class="footer_map_list fl">

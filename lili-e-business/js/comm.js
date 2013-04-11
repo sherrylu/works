@@ -54,11 +54,8 @@ $(".main_topMent_list").hover(function(){
 		
 		
 $('.main_top_ment li').hover(function(){
-	$('.main_top_ment li').animate();
-	 $(this).animate({left:'50px'},50);
 	 $(this).children('.main_top_ment li a').css('color','#FF0000');
 	},function(){
-	$(this).animate({left:'0'},100);
 	 $(this).children('.main_top_ment li a').css('color','#000');
 	})	
 
@@ -145,14 +142,21 @@ $(".box ul li").hover(function(){
 		$(this).css({"border":"1px solid #fff","border-top":"none"});
 	})	//box里面li边框效果	
 	
-$(".link_top").hide();	
-$("#footer").hover(function(){
-	$(".link_top").show(400);
-	},function(){
-	$(".link_top").hide(200);
-	})//返回顶部
 
-
+ // 滚动窗口来判断按钮显示或隐藏
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 150) {
+            $('.link_top').fadeIn(100);
+        } else {
+            $('.link_top').fadeOut(100);
+        }
+    });
+ 
+    // jQuery实现动画滚动
+    $('.link_top').click(function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 500);
+    })
 })
 
 

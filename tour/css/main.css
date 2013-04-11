@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; font-family:"微软雅黑"; font-size:12px; text-decoration:none;}
+ul,ol{ list-style:none;}
+img{border:none;}
+.clear{clear:both;}
+h3{font-size:14px; color:#232832; line-height:40px;}
+
+#top{background:#232832;}
+#top div{width:960px; height:40px; margin:0 auto;/* position:relative;*/}
+#top div ul{ float:left;}
+#top div ul li{ float:left; padding:0 10px;}
+
+#top div form{float:right;}
+#top div form label,#top div form a{ float:left; line-height:40px; color:#fff; padding:0 5px;}
+#top div form input{ display:block; float:left;  width:150px; height:24px; margin-top:8px; background:#808080; border:none; color:#fff; text-indent:5px; }
+#top div form input#button{ display:block; float:left;  width:45px; height:24px; margin-top:8px; background:#0099ff; border:none; color:#fff; text-indent:0; cursor:pointer;}
+
+
+#daohang{background:url(../images/main_bg_02.jpg);}
+#daohang #nav{width:960px; background: url(../images/banner_bg_03.jpg) left top no-repeat; padding:0 7px 0;; margin:0 auto;}
+#daohang #nav .logo{float:left;}
+#daohang #nav .sous{ float:left; width:395px; height:40px; padding:10px; background:#f2f2f2; margin-left:15px;}
+#daohang #nav .sous input{display:block; float:left; width:305px; height:40px; line-height:40px; background: url(../images/main_sous_06.jpg) left top; border:none;text-indent:5px; }
+#daohang #nav .sous input{_margin-left:-10px;}
+#daohang #nav .sous label{display:block; float:left; width:90px; height:40px; line-height:40px; background:#232832; color:#fff; text-align:center; cursor:pointer;}
+#daohang #nav .shop_car{display:block; float:left;}
+#daohang #nav .nav_inner ul{float:right; margin-top:20px;}
+#daohang #nav .nav_inner ul li{float:left;}
+#daohang #nav .nav_inner ul li a{float:left; display:block; height:70px; line-height:70px; padding:0 20px; color:#232832;}
+#daohang #nav .nav_inner ul li.aa_9 a{ background:#0099ff; color:#fff;} 
+#daohang #nav .nav_inner ul li a:hover{ background:#0099ff; color:#fff;}
+
+#main{background:url(../images/main_bg_02.jpg);}
+#main #tm{height:69px; width:945px; margin:0 auto; padding-left:15px;}
+#main #tm h2{float:left; font-family:"微软雅黑"; font-size:30px; font-weight:normal; color:#232832; width:700px; height:52px; line-height:52px;}
+#main #tm ul{ float:left; width:350px;}
+#main #tm ul li{ float:left; padding-right:15px;}
+#main #tm ul li a{color:#232832; text-decoration:underline;}
+#main #tm h3{ float:right; height:55px; line-height:55px; padding-right:5px; width:180px;}
+#main #tm h3 img{ padding-top:15px;}
+
+#main #inner{width:974px; margin:0 auto;}
+
+#main #inner .left_inner{float:left; width:185px;}
+#main #inner .left_inner .biaoti{ width:155px; height:40px; background-color:#232832; padding-left:15px;}
+#main #inner .left_inner .biaoti h3{ line-height:40px; color:#fff; }
+#main #inner .left_inner .subbiaoti{ width:155px; height:40px; background-color:#f2f2f2; padding-left:15px; border-bottom:1px #e1e1e1 solid;}
+#main #inner .left_inner .subbiaoti h3{ line-height:40px;}
+#main #inner .left_inner ul{ width:140px; background-color:#fff; padding:10px 15px; color:#232832 ;border-bottom:1px #e1e1e1 solid;}
+#main #inner .left_inner ul li a{ color:#232832;}
+#main #inner .left_inner ul li a:hover{ color:#76797f; text-decoration:underline;}
+#main #inner .left_inner .xiala{width:140px; height:29px; background:#fff; padding:10px 15px;}
+#main #inner .left_inner .xiala select{ width:128px; height:29px; line-height:29px;}
+
+
+#main #inner .right_inner{float:left; width:789px;}
+#main #inner .right_inner .dao_1{width:775px; height:40px; padding:10px 7px 5px; background:url(../images/main_right_bg_03.png) left top no-repeat;}
+#main #inner .right_inner .dao_2{width:775px;  height:40px; padding:0 7px 7px;  background:url(../images/main_right_bg_05.png) left top no-repeat;}
+#main #inner .right_inner .dao_1 ul,#main #inner .right_inner .dao_2 ul{float:left;}
+#main #inner .right_inner .dao_1 ul li,#main #inner .right_inner .dao_2 ul li{ float:left; height:40px; background:#2d323c; border-right:1px #232832 solid;}
+#main #inner .right_inner .dao_1 ul li:hover,#main #inner .right_inner .dao_2 ul li:hover{background-color:#0099ff;}
+#main #inner .right_inner .dao_1 ul li.first,#main #inner .right_inner .dao_2 ul li.first{background-color:#0099ff;}
+#main #inner .right_inner .dao_1 ul li.ti,#main #inner .right_inner .dao_2 ul li.ti{background:none;}
+#main #inner .right_inner .dao_1 ul li a,#main #inner .right_inner .dao_2 ul li a{ padding:0 15px; line-height:40px; text-decoration:none; font-family:"微软雅黑"; font-size:14px; color:#fff;}
+#main #inner .right_inner .dao_1 ul.dao_r,#main #inner .right_inner .dao_2 ul.dao_r{float:right;}
+
+#main #inner .right_inner .cp ul{float:left;}
+#main #inner .right_inner .cp ul li{float:left; width:249px; height:445px; background: url(../images/main_right_bg_06.png) left top no-repeat; padding:7px ;}
+#main #inner .right_inner .cp ul li h3{ height:60px; margin-left:15px; line-height:60px;}
+#main #inner .right_inner .cp ul li p img{ margin:0px 10px 0px 15px;}
+h4{ margin-left:140px; height:54px; line-height:54px; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#0099ff;}
+h4 span{ font-size:14px;}
+h4 em{ font-style:normal; font-size:24px; font-family:"Adobe 黑体 Std"; letter-spacing:-5px;}
+
+
+#main #mail{ width:950px; height:52px; margin:0 auto; background:url(../images/mail_bg_13.jpg) no-repeat; padding:18px 0 0 24px;}
+#main #mail p{ line-height:34px; color:#9ba0aa;}
+
+#footer{background: url(../images/footer_bg_23.jpg);}
+#footer .footer_inner{width:960px; height:460px; margin:0 auto;}
+#footer .footer_inner .up div{ width:192px; height:189px; padding-top:30px; float:left;}
+#footer .footer_inner .up div h5{line-height:40px; text-transform: uppercase; color:#232832;}
+#footer .footer_inner .up div ul{ line-height:21px;}
+#footer .footer_inner .up div ul li a{text-decoration:none; color:#76797f;}
+#footer .footer_inner .up div ul li a:hover{color:#232832;}
+
+#footer .footer_inner .down div.p1{float:left;width:1000px; padding:30px 0;}
+#footer .footer_inner .down div.p1 p{line-height:18px; text-align:center; margin-bottom:30px;color:#76797f;}
