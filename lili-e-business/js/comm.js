@@ -28,7 +28,7 @@ $('.login_link').click(function(){
 	$('.login').slideDown('slow');
 })
 $('.login_btn').click(function(){
-	$('.login').slideUp(100);
+	$('.login').slideUp('slow');
 })
 
 //登录效果
@@ -144,19 +144,24 @@ $(".box ul li").hover(function(){
 	
 
  // 滚动窗口来判断按钮显示或隐藏
-    $(window).scroll(function() {
+$(window).scroll(function() {
         if ($(this).scrollTop() > 150) {
             $('.link_top').fadeIn(100);
         } else {
             $('.link_top').fadeOut(100);
         }
-    });
- 
+});
     // jQuery实现动画滚动
-    $('.link_top').click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({scrollTop: 0}, 500);
-    })
+$('.link_top').click(function(event) {
+	 event.preventDefault();
+     $('html, body').animate({scrollTop: 0}, 500);
+})
+	
+	
+/*$("img.lazy").lazyload();*/
+	$("img.lazy").lazyload({ 
+    effect : "fadeIn"
+});	
 })
 
 
